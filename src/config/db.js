@@ -13,7 +13,7 @@ var mongoose = require("mongoose");
 const setupDB = async () => {
     try {
       const DB_OPTIONS = {
-        dbName: "Hackathon"
+        dbName: "Saylani Hackathon"
       }
       await mongoose.connect(process.env.DB, DB_OPTIONS)
       console.log('Connected Successfully...')
